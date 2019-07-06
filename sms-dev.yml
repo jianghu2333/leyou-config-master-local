@@ -5,8 +5,8 @@ spring:
     name: sms-service
   rabbitmq:
     virtual-host: /
-    username: guest
-    password: guest
+    username: admin
+    password: admin
     host: cd.laiqio.site
 
 leyou:

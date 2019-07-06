@@ -7,8 +7,8 @@ spring:
     cache: false
   rabbitmq:
     host: cd.laiqio.site
-    username: guest
-    password: guest
+    username: admin
+    password: admin
     virtual-host: /
   redis:
     host: cd.laiqio.site

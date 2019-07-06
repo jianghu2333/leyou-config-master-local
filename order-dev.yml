@@ -12,8 +12,8 @@ spring:
       minimum-idle: 100
   rabbitmq:
     host: cd.laiqio.site
-    username: guest
-    password: guest
+    username: admin
+    password: admin
     virtual-host: /
     template:
       queue: leyou.order.delay.queue
@@ -56,7 +56,7 @@ leyou:
     dataCenterId: 1
   jwt:
     cookieName: LY_TOKEN
-    pubKeyPath: G:\\tmp\\rsa\\rsa.pub # 公钥地址
+    pubKeyPath: D:\\tmp\\rsa\\rsa.pub # 公钥地址
   pay:
     appId: wx8397f8696b538317
     mchId: 1473426802

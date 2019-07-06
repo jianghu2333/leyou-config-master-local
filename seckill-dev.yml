@@ -8,9 +8,9 @@ spring:
   data:
     elasticsearch:
       cluster-name: elasticsearch
-      cluster-nodes: 192.168.1.4:9300
+      cluster-nodes: cd.laiqio.site:9300
   datasource:
-    url: jdbc:mysql://192.168.1.4:3306/leyou?characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://cd.laiqio.site:3306/leyou?characterEncoding=UTF-8&useSSL=false
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
@@ -19,8 +19,8 @@ spring:
       minimum-idle: 10
   rabbitmq:
     virtual-host: /
-    username: guest
-    password: guest
+    username: admin
+    password: admin
     host: cd.laiqio.site
     template:
       exchange: leyou.order.exchange
@@ -65,4 +65,4 @@ hystrix:
 leyou:
   jwt:
     cookieName: LY_TOKEN
-    pubKeyPath: G:\\tmp\\rsa\\rsa.pub # 公钥地址
+    pubKeyPath: D:\\tmp\\rsa\\rsa.pub # 公钥地址
