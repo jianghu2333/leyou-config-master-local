@@ -5,8 +5,8 @@ spring:
     name: ly-registry
   rabbitmq:
     virtual-host: /
-    username: guest
-    password: guest
+    username: admin
+    password: admin
     host: 192.168.1.4
 eureka:
   client:
