@@ -5,8 +5,8 @@ spring:
     name: auth-service
   rabbitmq:
     virtual-host: /
-    username: guest
-    password: guest
+    username: admin
+    password: admin
     host: cd.laiqio.site
 eureka:
   client:
