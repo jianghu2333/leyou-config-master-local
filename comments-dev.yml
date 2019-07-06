@@ -17,12 +17,12 @@ spring:
       maximum-pool-size: 20
       minimum-idle: 10
   rabbitmq:
-    virtual-host: /leyou
-    username: /leyou
-    password: leyou
-    host: 192.168.129.128
+    virtual-host: /
+    username: guest
+    password: guest
+    host: 192.168.1.4
   redis:
-    host: 192.168.129.128
+    host: 192.168.1.4
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
 eureka:

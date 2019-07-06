@@ -4,10 +4,10 @@ spring:
   application:
     name: upload-service
   rabbitmq:
-    virtual-host: /leyou
-    username: /leyou
-    password: leyou
-    host: 192.168.129.128
+    virtual-host: /
+    username: guest
+    password: guest
+    host: 192.168.1.4
   servlet:
     multipart:
       max-file-size: 10MB # 限制文件上传的大小
@@ -29,4 +29,4 @@ fdfs:
     width: 60
     height: 60
   tracker-list: # tracker地址
-    - 192.168.19.121:22122
+    - 192.168.1.4.121:22122
