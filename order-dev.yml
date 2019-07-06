@@ -4,14 +4,14 @@ spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:mysql://192.168.129.128:3306/leyou?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://cd.laiqio.site:3306/leyou?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
     username: root
     password: root
     hikari:
       maximum-pool-size: 200
       minimum-idle: 100
   rabbitmq:
-    host: 192.168.1.4
+    host: cd.laiqio.site
     username: guest
     password: guest
     virtual-host: /
@@ -19,7 +19,7 @@ spring:
       queue: leyou.order.delay.queue
     publisher-confirms: true
   redis:
-    host: 192.168.1.4
+    host: cd.laiqio.site
 eureka:
   client:
     service-url:

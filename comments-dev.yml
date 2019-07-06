@@ -20,9 +20,9 @@ spring:
     virtual-host: /
     username: guest
     password: guest
-    host: 192.168.1.4
+    host: cd.laiqio.site
   redis:
-    host: 192.168.1.4
+    host: cd.laiqio.site
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
 eureka:
