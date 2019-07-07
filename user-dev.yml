@@ -4,7 +4,7 @@ spring:
   application:
     name: user-service
   datasource:
-    url: jdbc:mysql://cd.laiqio.site:3306/leyou?characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://cd.laiqio.site:3306/leyou?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: Laiqio@2013
     driver-class-name: com.mysql.jdbc.Driver
