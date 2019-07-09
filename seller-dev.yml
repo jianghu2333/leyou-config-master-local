@@ -4,9 +4,10 @@ spring:
   application:
     name: seller-service
   datasource:
-    url: jdbc:mysql://cd.laiqio.site/leyou?characterEncoding=UTF-8&useSSL=false
-    username: root
-    password: Laiqio@2013
+      url: jdbc:mysql://cd.laiqio.site:3306/leyou?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: Laiqio@2013
+      driver-class-name: com.mysql.jdbc.Driver
     hikari:
       maximum-pool-size: 20
       minimum-idle: 10
