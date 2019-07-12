@@ -60,6 +60,5 @@ leyou:
        /api/user/check
        /api/user/code
        /api/user/query
-       /api/user/123
        /api/item
        /api/seller
