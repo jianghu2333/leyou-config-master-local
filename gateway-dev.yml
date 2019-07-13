@@ -59,5 +59,6 @@ leyou:
        /api/user/register
        /api/user/check
        /api/user/code
+       /api/user/query
        /api/item
-      /api/seller
+       /api/seller
